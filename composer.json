@@ -1,0 +1,32 @@
+{
+    "name": "nt5/animeflv-api",
+    "type": "library",
+    "description": "PHP AnimeFLV Scraper API",
+    "authors": [
+        {
+            "name": "Hendell Jonathan Porras Perez",
+            "email": "hendelporras@hotmail.com",
+            "homepage": "https://nt5.pw",
+            "role": "Main Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NT5\\AnimeflvApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^6",
+        "querypath/QueryPath": ">=3.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
